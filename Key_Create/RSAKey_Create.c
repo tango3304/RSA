@@ -103,9 +103,9 @@ int main(){
     fclose(PublicKey2_File);
     fclose(PrivateKey_File);
 
+printf("秘密鍵　：%u\n", PrivateKey);
 printf("公開鍵１：%u\n", PublicKey1);
 printf("公開鍵２：%u\n", PublicKey2);    
-printf("秘密鍵　：%u\n", PrivateKey);
  
     //Multiple_START_Control（Release）
     ReleaseMutex(hMSP);
