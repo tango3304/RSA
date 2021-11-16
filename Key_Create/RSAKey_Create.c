@@ -5,7 +5,7 @@
 #include <math.h>
 #include <windows.h>
 #include <limits.h>
-#include "RSA_HeaderFile/RSA_VariableDeclaration.c"// Variable Declaration
+#include "RSA_HeaderFile/RSA_VariableDeclaration.h"// Variable Declaration
 #define RandomNumber (rand() % 100000)
 
 //########################
