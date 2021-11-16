@@ -12,7 +12,6 @@
 //Main_Process START
 //########################
 int main(){
-    // FreeConsole(); //Console_Hide
     srand((unsigned)time(NULL));// Change Random Number Value
 
     // Multiple_START_Control
